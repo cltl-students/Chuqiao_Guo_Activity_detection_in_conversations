@@ -1,0 +1,10 @@
+datetime
+pathlib
+pandas
+seaborn
+matplotlib
+numpy
+scikit-learn
+openai==0.28
+dotenv
+nltk
