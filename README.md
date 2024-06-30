@@ -1,5 +1,7 @@
 # Chuqiao_Guo_Activity_detection_in_conversations
 **Master's Degree in Linguistics: Text Mining, Vrije Universiteit Amsterdam 2023/2024**
+
+
 This repository provides the codes and datasets used in the thesis: Extracting Activity Information with LLMs Using GPT-Generated Data
 
 ## Contents
