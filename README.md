@@ -48,29 +48,23 @@ This notebook shows the statistics of the generated dataset. Please run it after
 
 - Jupyter Notebook: step8_optimisation_and_eveluation.ipynb
   
-  This notebook elaborates on the optimisation process:
-      - Test on the development set
-      - Get classification reports and confusion matrices
-      - Refine the systems accordingly
-
-  Also the evaluation process:
-      - Re-evaluate on the test set
-      - Get classification reports and confusion matrices as the final results
+  - This notebook elaborates on the optimisation process (using dev set)
+  - Also the final evaluation process (using test set)
   
-      - Python File: utils_srl.py
-      The utils file used to fine-tune and evaluate the BERT-based model
-      
-      - Python File: utils.py
-      The utils file used in other modules.
+- Python File: utils_srl.py
+  
+The utils file used to fine-tune and evaluate the BERT-based model
+
+- Python File: utils.py
+  
+The utils file used in other modules.
 
 - TXT File: requirements.txt
   
 Can be used to install the dependencies
 
-### Dataset
-- Folder: response_data
+### Folder: response_data
 This folder includes the dataset used in the experiment.
 
-## Figures
-- Folder: Fig
+## Folder: Fig
 This folder contains the confusion matrices of the systems
