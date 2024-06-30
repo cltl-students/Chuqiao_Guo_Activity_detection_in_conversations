@@ -1,17 +1,20 @@
 # Chuqiao_Guo_Activity_detection_in_conversations
-
+**Master's Degree in Linguistics: Text Mining, Vrije Universiteit Amsterdam 2023/2024**
 This repository provides the codes and datasets used in the thesis: Extracting Activity Information with LLMs Using GPT-Generated Data
 
 ## Contents
 
-### 1. Jupyter Notebook (Experiments)
+### 1. Folder: code
 - Jupyter Notebook: step1_gpt_generated_conversations.ipynb
+- 
 This notebook generates natural conversations between a patient and a healthcare chatbot. In the conversations, the patient describes their daily activities to the chatbot, and the chatbot asks further questions for more detailed information.
 
 - Jupyter Notebook: step2_data_cleaning.ipynb
+- 
 This notebook formats the generated data and calculates the statistics of the dataset
 
 - Jupyter Notebook: step3_resizing_files.ipynb
+- 
     - This notebook resizes each category of generated data into four smaller files for better processing by GPT
     - It also includes the train-dev-test split process
 
@@ -52,12 +55,11 @@ Also the evaluation process:
     - Re-evaluate on the test set
     - Get classification reports and confusion matrices as the final results
 
-### utils
-- Python File: utils_srl.py
-The utils file used to fine-tune and evaluate the BERT-based model
-
-- Python File: utils.py
-The utils file used in other modules.
+    - Python File: utils_srl.py
+    The utils file used to fine-tune and evaluate the BERT-based model
+    
+    - Python File: utils.py
+    The utils file used in other modules.
 
 - TXT File: requirements.txt
 Can be used to install the dependencies
