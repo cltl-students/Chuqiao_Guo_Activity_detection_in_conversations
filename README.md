@@ -18,7 +18,7 @@ This notebook formats the generated data and calculates the statistics of the da
     - It also includes the train-dev-test split process
 
 - Jupyter Notebook: step4a_prepare_for_annotation.ipynb
-    - In this notebook, the dev and test dataset are pre-processed to a format that accommodates manual annotation.
+    - In this notebook, the dev and test datasets are pre-processed to a format that accommodates manual annotation.
     - After pre-processing, the dataset will have 8 columns, namely: 'conversation', 'sent_id', 'token_id', 'token', 'event', 'time', 'place', 'participant'.
     - The annotators can mark the 'event', 'time', 'place', 'participant' information to annotate the event-related information.
 
@@ -36,15 +36,15 @@ This notebook shows the statistics of the generated dataset. Please run it after
 
 - Jupyter Notebook: step6a_fine-tune_bert.ipynb
     - This notebook fine-tunes the multilingual BERT model.
-    - For higher speed of processing, it is suggested to run this notebook in Google Colab.
+    - For a higher speed of processing, it is suggested to run this notebook in Google Colab.
 
 - Jupyter Notebook: step6b_prediction_and_evaluation.ipynb
-    - This notebook test the model performance of fine-tuned BERT model, and generates a file integrated the dev/test dataset and the corresponding predictions.
-    - For higher speed of processing, it is suggested to run this notebook in Google Colab.
+    - This notebook tests the model performance of the fine-tuned BERT model, and generates a file integrated into the dev/test dataset and the corresponding predictions.
+    - For a higher speed of processing, it is suggested to run this notebook in Google Colab.
 
 - Jupyter Notebook: step7_rule_based_system.ipynb
-    - This notebook includes the process of defining rules to detect event-related tokens using dependency parser and NER processor of SpaCy.
-    - It outputs the predictions of thr rule-based system in this dir: 'response_data/dataset/rule-based/'
+    - This notebook includes the process of defining rules to detect event-related tokens using the dependency parser and NER processor of SpaCy.
+    - It outputs the predictions of the rule-based system in this dir: 'response_data/dataset/rule-based/'
 
 - Jupyter Notebook: step8_optimisation_and_eveluation.ipynb
   
@@ -59,12 +59,13 @@ The utils file used to fine-tune and evaluate the BERT-based model
   
 The utils file used in other modules.
 
-- TXT File: requirements.txt
   
 Can be used to install the dependencies
 
 ### Folder: response_data
 This folder includes the dataset used in the experiment.
 
-## Folder: Fig
+### Folder: Fig
 This folder contains the confusion matrices of the systems
+
+### TXT File: requirements.txt
