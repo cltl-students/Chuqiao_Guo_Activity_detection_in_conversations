@@ -14,7 +14,6 @@ This notebook generates natural conversations between a patient and a healthcare
 This notebook formats the generated data and calculates the statistics of the dataset
 
 - Jupyter Notebook: step3_resizing_files.ipynb
-- 
     - This notebook resizes each category of generated data into four smaller files for better processing by GPT
     - It also includes the train-dev-test split process
 
@@ -28,9 +27,11 @@ This notebook formats the generated data and calculates the statistics of the da
     - The output file only contains the conversation id, sentence id, token id, token, and the BIO system labels.
 
 - Jupyter Notebook: step5a_gpt_predict_labels.ipynb
+  
 This notebook includes the prompt engineering process of predicting event-related information using GPT-4o
 
 - Jupyter Notebook: step5b_label_distribution.ipynb
+  
 This notebook shows the statistics of the generated dataset. Please run it after running "step5_gpt_predicted_labels" to see the distributions of generated labels.
 
 - Jupyter Notebook: step6a_fine-tune_bert.ipynb
@@ -46,22 +47,24 @@ This notebook shows the statistics of the generated dataset. Please run it after
     - It outputs the predictions of thr rule-based system in this dir: 'response_data/dataset/rule-based/'
 
 - Jupyter Notebook: step8_optimisation_and_eveluation.ipynb
-This notebook elaborates on the optimisation process:
-    - Test on the development set
-    - Get classification reports and confusion matrices
-    - Refine the systems accrodingly
+  
+  This notebook elaborates on the optimisation process:
+      - Test on the development set
+      - Get classification reports and confusion matrices
+      - Refine the systems accordingly
 
-Also the evaluation process:
-    - Re-evaluate on the test set
-    - Get classification reports and confusion matrices as the final results
-
-    - Python File: utils_srl.py
-    The utils file used to fine-tune and evaluate the BERT-based model
-    
-    - Python File: utils.py
-    The utils file used in other modules.
+  Also the evaluation process:
+      - Re-evaluate on the test set
+      - Get classification reports and confusion matrices as the final results
+  
+      - Python File: utils_srl.py
+      The utils file used to fine-tune and evaluate the BERT-based model
+      
+      - Python File: utils.py
+      The utils file used in other modules.
 
 - TXT File: requirements.txt
+  
 Can be used to install the dependencies
 
 ### Dataset
