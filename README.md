@@ -69,4 +69,5 @@ The pdf which contains the full thesis report
 
 ## References
 The code for generating the data through prompt engineering and part of the code for data cleaning is inspired by [ICF-activities-classifier](https://github.com/cltl-students/ICF-activities-classifier)
+
 The code for fine-tuning the multilingual BERT model is adopted from [bert4srl](https://github.com/angel-daza/bert4srl)
