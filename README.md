@@ -4,7 +4,7 @@ This repository provides the codes and datasets used in the thesis: Extracting A
 
 ## Contents
 
-### Jupyter Notebook
+### 1. Jupyter Notebook (Experiments)
 - Jupyter Notebook: step1_gpt_generated_conversations.ipynb
 This notebook generates natural conversations between a patient and a healthcare chatbot. In the conversations, the patient describes their daily activities to the chatbot, and the chatbot asks further questions for more detailed information.
 
