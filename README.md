@@ -12,12 +12,12 @@ This notebook generates natural conversations between a patient and a healthcare
 This notebook formats the generated data and calculates the statistics of the dataset
 
 - Jupyter Notebook: step3_resizing_files.ipynb
-    - This notebook resizes each category of generated data into four smaller files for better processed by GPT
-    - It also include the train-dev-test split process
+    - This notebook resizes each category of generated data into four smaller files for better processing by GPT
+    - It also includes the train-dev-test split process
 
 - Jupyter Notebook: step4a_prepare_for_annotation.ipynb
-    - In this notebook, the dev and test dataset are pre-processed to a format that accomodates manual annotation.
-    - After pre-processing, the dataset will have 8 column, namely: 'conversation', 'sent_id', 'token_id', 'token', 'event', 'time', 'place', 'participant'.
+    - In this notebook, the dev and test dataset are pre-processed to a format that accommodates manual annotation.
+    - After pre-processing, the dataset will have 8 columns, namely: 'conversation', 'sent_id', 'token_id', 'token', 'event', 'time', 'place', 'participant'.
     - The annotators can mark the 'event', 'time', 'place', 'participant' information to annotate the event-related information.
 
 - Jupyter Notebook: step4b_annotation_to_bio_labels.ipynb
@@ -65,3 +65,7 @@ Can be used to install the dependencies
 ### Dataset
 - Folder: response_data
 This folder includes the dataset used in the experiment.
+
+## Figures
+- Folder: Fig
+This folder contains the confusion matrices of the systems
