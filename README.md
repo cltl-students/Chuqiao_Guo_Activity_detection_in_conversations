@@ -6,11 +6,11 @@ This repository provides the codes and datasets used in the thesis: Extracting A
 
 ### 1. Folder: code
 - Jupyter Notebook: step1_gpt_generated_conversations.ipynb
-- 
+  
 This notebook generates natural conversations between a patient and a healthcare chatbot. In the conversations, the patient describes their daily activities to the chatbot, and the chatbot asks further questions for more detailed information.
 
 - Jupyter Notebook: step2_data_cleaning.ipynb
-- 
+  
 This notebook formats the generated data and calculates the statistics of the dataset
 
 - Jupyter Notebook: step3_resizing_files.ipynb
