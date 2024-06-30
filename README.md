@@ -71,3 +71,5 @@ This folder includes the dataset used in the experiment.
 This folder contains the confusion matrices of the systems
 
 ### TXT File: requirements.txt
+
+### Thesis Report: Chuqiao_Guo_MA_Thesis.pdf
