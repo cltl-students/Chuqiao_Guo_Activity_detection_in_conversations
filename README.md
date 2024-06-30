@@ -8,12 +8,10 @@ This repository provides the codes and datasets used in the thesis: Extracting A
 
 ### 1. Folder: code
 - Jupyter Notebook: step1_gpt_generated_conversations.ipynb
-  
-This notebook generates natural conversations between a patient and a healthcare chatbot. In the conversations, the patient describes their daily activities to the chatbot, and the chatbot asks further questions for more detailed information.
+  - This notebook generates natural conversations between a patient and a healthcare chatbot. In the conversations, the patient describes their daily activities to the chatbot, and the chatbot asks further questions for more detailed information.
 
 - Jupyter Notebook: step2_data_cleaning.ipynb
-  
-This notebook formats the generated data and calculates the statistics of the dataset
+  - This notebook formats the generated data and calculates the statistics of the dataset
 
 - Jupyter Notebook: step3_resizing_files.ipynb
     - This notebook resizes each category of generated data into four smaller files for better processing by GPT
@@ -29,12 +27,10 @@ This notebook formats the generated data and calculates the statistics of the da
     - The output file only contains the conversation id, sentence id, token id, token, and the BIO system labels.
 
 - Jupyter Notebook: step5a_gpt_predict_labels.ipynb
-  
-This notebook includes the prompt engineering process of predicting event-related information using GPT-4o
+  - This notebook includes the prompt engineering process of predicting event-related information using GPT-4o
 
 - Jupyter Notebook: step5b_label_distribution.ipynb
-  
-This notebook shows the statistics of the generated dataset. Please run it after running "step5_gpt_predicted_labels" to see the distributions of generated labels.
+  - This notebook shows the statistics of the generated dataset. Please run it after running "step5_gpt_predicted_labels" to see the distributions of generated labels.
 
 - Jupyter Notebook: step6a_fine-tune_bert.ipynb
     - This notebook fine-tunes the multilingual BERT model.
@@ -51,18 +47,13 @@ This notebook shows the statistics of the generated dataset. Please run it after
 - Jupyter Notebook: step8_optimisation_and_eveluation.ipynb
   
   - This notebook elaborates on the optimisation process (using dev set)
-  - Also the final evaluation process (using test set)
+  - Also the final evaluation process (using a test set)
   
 - Python File: utils_srl.py
-  
-The utils file used to fine-tune and evaluate the BERT-based model
+   -The utils file used to fine-tune and evaluate the BERT-based model
 
 - Python File: utils.py
-  
-The utils file used in other modules.
-
-  
-Can be used to install the dependencies
+  - The utils file used in other modules.
 
 ### Folder: response_data
 This folder includes the dataset used in the experiment.
@@ -71,5 +62,11 @@ This folder includes the dataset used in the experiment.
 This folder contains the confusion matrices of the systems
 
 ### TXT File: requirements.txt
+Includes all packages used in the project. Can be used to install the dependencies
 
 ### Thesis Report: Chuqiao_Guo_MA_Thesis.pdf
+The pdf which contains the full thesis report
+
+## References
+The code for generating the data through prompt engineering and part of the code for data cleaning is inspired by [ICF-activities-classifier](https://github.com/cltl-students/ICF-activities-classifier)
+The code for fine-tuning the multilingual BERT model is adopted from [bert4srl](https://github.com/angel-daza/bert4srl)
