@@ -50,7 +50,7 @@ This repository provides the codes and datasets used in the thesis: Extracting A
   - Also the final evaluation process (using a test set)
   
 - Python File: utils_srl.py
-   -The utils file used to fine-tune and evaluate the BERT-based model
+   - The utils file used to fine-tune and evaluate the BERT-based model
 
 - Python File: utils.py
   - The utils file used in other modules.
